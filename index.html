@@ -1,0 +1,953 @@
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fal Sabji Bazar</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Grocery Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- font-awesome icons -->
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /> 
+<!-- //font-awesome icons -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+	
+<body>
+<!-- header -->
+<div class="bg">
+		<img src="pic5.png" class="car">
+	</div>
+	<div class="agileits_header">
+		<div class="w3l_offers">
+			<a href="vegetables.html">Today's special Offers !</a>
+		</div>
+		<div class="w3l_search">
+			<form action="#" method="post">
+				<input type="text" name="Product" value="Search a product..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search a product...';}" required="">
+				<input type="submit" value=" ">
+			</form>
+		</div>
+		<div class="product_list_header">  
+			<form action="#" method="post" class="last">
+                <fieldset>
+                    <input type="hidden" name="cmd" value="_cart" />
+                    <input type="hidden" name="display" value="1" />
+                    <input type="submit" name="submit" value="View your cart" class="button" />
+                </fieldset>
+            </form>
+		</div>
+		<div class="w3l_header_right">
+			<ul>
+				<li class="dropdown profile_details_drop">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i><span class="caret"></span></a>
+					<div class="mega-dropdown-menu">
+						<div class="w3ls_vegetables">
+							<ul class="dropdown-menu drp-mnu">
+								<li><a href="login.html">Login</a></li> 
+								<li><a href="login.html">Sign Up</a></li>
+							</ul>
+						</div>                  
+					</div>	
+				</li>
+			</ul>
+		</div>
+		<div class="w3l_header_right1">
+			<h2><a href="mail.html">Contact Us</a></h2>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+<!-- script-for sticky-nav -->
+	<script>
+	$(document).ready(function() {
+		 var navoffeset=$(".agileits_header").offset().top;
+		 $(window).scroll(function(){
+			var scrollpos=$(window).scrollTop(); 
+			if(scrollpos >=navoffeset){
+				$(".agileits_header").addClass("fixed");
+			}else{
+				$(".agileits_header").removeClass("fixed");
+			}
+		 });
+		 
+	});
+	</script>
+<!-- //script-for sticky-nav -->
+	<div class="logo_products">
+		<div class="container">
+			<div class="w3ls_logo_products_left">
+				<h1><a href="index.html"><span>Fal Sabji</span> Bazar</a></h1>
+			</div>
+			<div class="w3ls_logo_products_left1">
+				<ul class="special_items">
+					<li><a href="index.html">Home</a><i>/</i></li>
+					<li><a href="about.html">About Us</a><i>/</i></li>
+					<li><a href="services.html">Services</a><i>/</i></li>
+					<li><a href="mail.html"></a>Contact Us</li>
+				</ul>
+			</div>
+			<div class="w3ls_logo_products_left1">
+				<ul class="phone_email">
+					<li><i class="fa fa-phone" aria-hidden="true"></i>(+0123) 234 567</li>
+					<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:store@grocery.com">store@grocery.com</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //header -->
+<!-- banner -->
+	<div class="banner">
+		<div class="w3l_banner_nav_left">
+			<nav class="navbar nav_bottom">
+			 <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header nav_2">
+				  <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+			   </div> 
+			   <!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+					<ul class="nav navbar-nav nav_1">
+						<li><a style="font-size:30px;" href="vegetables.html"><b>Products</b></a></li>
+						<li><a href="vegetables.html#veg">Veggies</a></li>
+						<li><a href="vegetables.html#fru">Fruits</a></li>
+						<li><a href="vegetables.html#gro">Groceries</a></li>
+						
+					</ul>
+				 </div><!-- /.navbar-collapse -->
+			</nav>
+		</div>
+		<div class="w3l_banner_nav_right">
+			<section class="slider">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<div class="w3l_banner_nav_right_banner">
+								<h3>Give junk food the boot  <span>and</span> switch to Fruit.</h3>
+								<div class="more">
+									<a href="vegetables.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Shop now</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="w3l_banner_nav_right_banner1">
+								<h3>A jewel of health,<span>hidden</span> in a Vegetable.</h3>
+								<div class="more">
+									<a href="vegetables.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Shop now</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="w3l_banner_nav_right_banner2">
+								<h3>upto <i>50%</i> off.</h3>
+								<div class="more">
+									<a href="vegetables.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Shop now</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- flexSlider -->
+				<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+				<script defer src="js/jquery.flexslider.js"></script>
+				<script type="text/javascript">
+				$(window).load(function(){
+				  $('.flexslider').flexslider({
+					animation: "slide",
+					start: function(slider){
+					  $('body').removeClass('loading');
+					}
+				  });
+				});
+			  </script>
+			<!-- //flexSlider -->
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div>
+	<div class="container">
+	<div class="row row2">
+		<div class="col-md-3 medile_agile_its_blue glowing">
+			<h4><span >O<span>U</span><span>R </span> <span>F</span><span>R</span><span>E</span><span>S</span><span>H </span></h4>
+			<h4> <span>V</span><span>E</span><span>G</span><span>E</span><span>T</span><span>A</span><span>B</span><span>L</span><span>E</span><span>S </span></h4>
+		<h4><span> & </span> <span>F</span><span>R</span><span>U</span><span>I</span><span>T</span><span>S</span></h4>
+		<h4><span>A</span><span>T</span> <span>Y</span><span>O</span><span>U</span><span>R</span></h4>
+		<h4><span>D</span><span>O</span><span>O</span><span>R</span><span>S</span>  <span><i class="fa fa-hand-o-right" aria-hidden="true"></i></span> </h4>
+		</div>
+		<div class="col-md-5 medile_agile_its_green">
+			<p class="p1">Call us at 10:00 am – 8:30 pm</p>
+			<p class="p2">9614568469</p>
+			<p class="p3">Free home delivery on order above Rs. 200</p>
+			<div class="pulse">
+				<i class="fa fa-phone" aria-hidden="true"></i>
+				
+			</div>
+		</div>
+		<div class="col-md-4 medile_agile_its_black">
+				<div class="d1"><span style="color:#212121">O</span><span style="color:#84c639">R</span></div>
+				<a href="vegetables.html"class="b1">Order Now</a>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<!-- banner -->
+	<div class="container container1">
+            <div class="center"></div>
+            <div class="row">
+                <div class="col-md-4 left">
+                    <div class="red">
+                        <strong class="big">01</strong>
+                        <p class="small">Free Home Delivery In Shortest Time</p>
+                    </div>
+                    <div class="green">
+                        <strong class="big">02</strong>
+                        <p class="small">Lowest Price Guranteed</p>
+                    </div>
+                    <div class="pink">
+                        <strong class="big">03</strong>
+                        <p class="small">Hand Piched Products</p>
+                    </div>
+                </div>
+                <div class="col-md-4 middle">
+                    <p class="large">Our story</p>
+                    <div class="our_story_content">
+                        <p class="mid">&#8216;Fal Sabji Bazar&#8217; as the name indicates is a vegetable cart,having traditional touch of conventional cart vendors and freshness and quality oriented approach of young minds.</p>
+                        <p class="mid">We aim to provide you fresh vegetables and fruits at your doorstep. There has been many of such portals Offering same service but now often have you used them?</p>
+                        <p class="mid">The reason why you still prefer to go out and buy vegetables and fruit, is that you know that no one else can select the best things better then you for yourself. In our Fal Sabji Bazar the very factor of &#8216;touch and feel&#8221; exists. Now whenever you want you can call your own vegetable and fruit shop on you doorstep and select your own items.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 right">
+                    <div class="yellow">
+                        <strong class="big">04</strong>
+                        <p class="small">Always Freshness Guranteed</p>
+                    </div>
+                    <div class="blue">
+                        <strong class="big">05</strong>
+                        <p class="small">Healthy, Safe from Pesticides</p>
+                    </div>
+                    <div class="coral">
+                        <strong class="big">06</strong>
+                        <p class="small">Sweet Water Vegetables</p>
+                    </div>
+                </div>
+            </div>
+		</div>
+		
+		
+<!-- top-brands -->
+	<div class="top-brands">
+		<div class="container">
+			<h3>Our Products</h3>
+			<div class="row agile_top_brands_grids">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+							<div class="hover14 column">
+							<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+								<div class="agile_top_brand_left_grid1">
+									<figure>
+										<div class="snipcart-item block">
+											<div class="snipcart-thumb">
+												<a href="#"><img src="images/veg/v1.jpg" alt=" " class="img-responsive" /></a>
+												<p>Potato - Chandramukhi</p>
+												<select name="price" id="amount6" onchange="changePrice6(this)">
+													<option value="1000">1kg.</option>
+													<option value="2000">2kg.</option>
+													<option value="5000">5kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price6' value="18" style="font-size: 16px">₹ 18.00</li></b>
+												</ul>
+											</div>
+											<div class="snipcart-details">
+												<form action="#" method="post">
+													<fieldset>
+														<input type="hidden" name="cmd" value="_cart" />
+														<input type="hidden" name="add" value="1" />
+														<input type="hidden" name="business" value=" " />
+														<input type="hidden" name="item_name" value="Baby Potato" />
+														<input type="hidden" name="amount" value="15.00" />
+														<input type="hidden" name="discount_amount" value="1.00" />
+														<input type="hidden" name="currency_code" value="INR" />
+														<input type="hidden" name="return" value=" " />
+														<input type="hidden" name="cancel_return" value=" " />
+														<input type="submit" name="submit" value="Add to cart" class="button" />
+													</fieldset>
+												</form>
+											</div>
+										</div>
+									</figure>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 w3ls_w3l_banner_left">
+							<div class="hover14 column">
+							<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+								<div class="agile_top_brand_left_grid_pos">
+								</div>
+								<div class="agile_top_brand_left_grid1">
+									<figure>
+										<div class="snipcart-item block">
+											<div class="snipcart-thumb">
+												<a href="#"><img src="images/veg/v2.jpg" alt=" " class="img-responsive" /></a>
+												<p>Onion</p>
+												<select name="price" id="amount7" onchange="changePrice7(this)">
+													<option value="1000">1kg.</option>
+													<option value="2000">2kg.</option>
+													<option value="5000">5kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price7' value="13" style="font-size: 16px">₹ 13.00</li></b>
+												</ul>
+											</div>
+											<div class="snipcart-details">
+												<form action="#" method="post">
+													<fieldset>
+														<input type="hidden" name="cmd" value="_cart" />
+														<input type="hidden" name="add" value="1" />
+														<input type="hidden" name="business" value=" " />
+														<input type="hidden" name="item_name" value="fresh cauliflower" />
+														<input type="hidden" name="amount" value="15.00" />
+														<input type="hidden" name="discount_amount" value="1.00" />
+														<input type="hidden" name="currency_code" value="INR" />
+														<input type="hidden" name="return" value=" " />
+														<input type="hidden" name="cancel_return" value=" " />
+														<input type="submit" name="submit" value="Add to cart" class="button" />
+													</fieldset>
+												</form>
+											</div>
+										</div>
+									</figure>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+							<div class="hover14 column">
+							<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+								<div class="agile_top_brand_left_grid_pos">
+								</div>
+								<div class="agile_top_brand_left_grid1">
+									<figure>
+										<div class="snipcart-item block">
+											<div class="snipcart-thumb">
+												<a href="#"><img src="images/veg/v3.jpg" alt=" " class="img-responsive" /></a>
+												<p>Potato - Jyoti</p>
+												<select name="price" id="amount8" onchange="changePrice8(this)">
+													<option value="1000">1kg.</option>
+													<option value="2000">2kg.</option>
+													<option value="5000">5kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price8' value="15" style="font-size: 16px">₹ 15.00</li></b>
+												</ul>
+											</div>
+											<div class="snipcart-details">
+												<form action="#" method="post">
+													<fieldset>
+														<input type="hidden" name="cmd" value="_cart" />
+														<input type="hidden" name="add" value="1" />
+														<input type="hidden" name="business" value=" " />
+														<input type="hidden" name="item_name" value="fresh brinjal bharta" />
+														<input type="hidden" name="amount" value="2.00" />
+														<input type="hidden" name="discount_amount" value="1.00" />
+														<input type="hidden" name="currency_code" value="INR" />
+														<input type="hidden" name="return" value=" " />
+														<input type="hidden" name="cancel_return" value=" " />
+														<input type="submit" name="submit" value="Add to cart" class="button" />
+													</fieldset>
+												</form>
+											</div>
+										</div>
+									</figure>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 w3ls_w3l_banner_left">
+							<div class="hover14 column">
+							<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+								<div class="agile_top_brand_left_grid1">
+									<figure>
+										<div class="snipcart-item block">
+											<div class="snipcart-thumb">
+												<a href="#"><img src="images/veg/v4.jpg" alt=" " class="img-responsive" /></a>
+												<p>Tomato</p>
+												<select name="price" id="amount9" onchange="changePrice9(this)">
+													<option value="250">250gm.</option>
+													<option value="500">500gm.</option>
+													<option value="1000">1kg.</option>
+													<option value="2000">2kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price9' value="3" style="font-size: 16px">₹ 3.00</li></b>
+												</ul>
+											</div>
+											<div class="snipcart-details">
+												<form action="#" method="post">
+													<fieldset>
+														<input type="hidden" name="cmd" value="_cart" />
+														<input type="hidden" name="add" value="1" />
+														<input type="hidden" name="business" value=" " />
+														<input type="hidden" name="item_name" value="fresh sweet lime" />
+														<input type="hidden" name="amount" value="6.00" />
+														<input type="hidden" name="discount_amount" value="1.00" />
+														<input type="hidden" name="currency_code" value="USD" />
+														<input type="hidden" name="return" value=" " />
+														<input type="hidden" name="cancel_return" value=" " />
+														<input type="submit" name="submit" value="Add to cart" class="button" />
+													</fieldset>
+												</form>
+											</div>
+										</div>
+									</figure>
+								</div>
+							</div>
+							</div>
+						</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f1.jpg" alt=" " class="img-responsive" /></a>
+											<p>Banana/Kathali Kala</p>
+											<select name="price" id="amount50" onchange="changePrice50(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price50' value="25" style="font-size: 16px">₹ 25.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Baby Potato" />
+													<input type="hidden" name="amount" value="15.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f2.jpg" alt=" " class="img-responsive" /></a>
+											<p>Papaya(750-1.5kg.)</p>
+											<select name="price" id="amount49" onchange="changePrice49(this)">
+												<option value="1">1pc.</option>
+												<option value="2">2pc.</option>
+												<option value="5">5pc.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price49' value="49" style="font-size: 16px">₹ 49.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh cauliflower" />
+													<input type="hidden" name="amount" value="15.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f3.jpg" alt=" " class="img-responsive" /></a>
+											<p>Apple - Washington</p>
+											<select name="price" id="amount48" onchange="changePrice48(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price48' value="50" style="font-size: 16px">₹ 50.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh brinjal bharta" />
+													<input type="hidden" name="amount" value="2.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f4.jpg" alt=" " class="img-responsive" /></a>
+											<p>Guava</p>
+											<select name="price" id="amount47" onchange="changePrice47(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price47' value="25" style="font-size: 16px">₹ 25.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh sweet lime" />
+													<input type="hidden" name="amount" value="6.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/gro/g1.jpg" alt=" " class="img-responsive" /></a>
+											<p>Atta - Whole Wheat(1kg)</p>
+											<p style="color: gray;font-size: 12px;">Aashirvaad</p>
+											<ul class="b2">
+												<b><li id='price51' value="36" style="font-size: 16px">₹ 36.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Baby Potato" />
+													<input type="hidden" name="amount" value="15.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+												<a href="#"><img src="images/gro/g2.jpg" alt=" " class="img-responsive" /></a>
+												<p>Chana Sattu(500gm.)</p>
+												<p style="color: gray;font-size: 12px;">Ganesh</p>
+												<ul class="b2">
+													<b><li id='price52' value="64" style="font-size: 16px">₹ 64.00</li></b>
+												</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh cauliflower" />
+													<input type="hidden" name="amount" value="15.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/gro/g3.jpg" alt=" " class="img-responsive" /></a>
+											<p style="padding-left: 0;margin-left: 0;">Mustard Oil(1L)</p>
+											<p style="color: gray;font-size: 12px;">Emami</p>
+											<ul class="b2">
+												<b><li id='price53' value="99" style="font-size: 16px">₹ 99.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh brinjal bharta" />
+													<input type="hidden" name="amount" value="2.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/gro/g4.jpg" alt=" " class="img-responsive" /></a>
+											<p style="padding-left: 0;margin-left: 0;">Sunflower Refined Oil(910gm)</p>
+											<p style="color: gray;font-size: 12px;">Fortune</p>
+											<ul class="b2">
+												<b><li id='price54' value="102" style="font-size: 16px">₹ 102.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh sweet lime" />
+													<input type="hidden" name="amount" value="6.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			<div class="row agile_top_brands_grids" align="center"><a href="vegetables.html#veg" class="c1">View More</a></div>
+		</div>
+	</div>
+<!-- //top-brands -->
+
+<div class="testimonials">
+	<div class="container">
+		<h3>Our Customers</h3>
+			<div class="w3_testimonials_grids">
+				<div class="wmuSlider example1 animated wow slideInUp" data-wow-delay=".5s">
+					<div class="wmuSliderWrapper">
+						<article style="position: absolute; width: 100%; opacity: 0;"> 
+							<div class="banner-wrap">
+								<div class="col-md-6 w3_testimonials_grid">
+									<p><i class="fa fa-quote-right" aria-hidden="true"></i>Your products are always excellent!!! I absolutely love unloading the veg box to see what's in there.    The website is easy to use too.</p>
+									<h4>Sonu Kumar <span>Customer</span></h4>
+								</div>
+								<div class="col-md-6 w3_testimonials_grid">
+									<p><i class="fa fa-quote-right" aria-hidden="true"></i>Great service and fab produce! Online service and free home delivery just makes this so much easier.</p>
+									<h4>Sneha Roy <span>Customer</span></h4>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</article>
+						<article style="position: absolute; width: 100%; opacity: 0;"> 
+							<div class="banner-wrap">
+								<div class="col-md-6 w3_testimonials_grid">
+									<p><i class="fa fa-quote-right" aria-hidden="true"></i>Place is actually good. Quality is good and rates are very minimal. Highly recommended to visit.</p>
+									<h4>Geeta Devi <span>Customer</span></h4>
+								</div>
+								<div class="col-md-6 w3_testimonials_grid">
+									<p><i class="fa fa-quote-right" aria-hidden="true"></i>They deliver the best vegetables and fruits lower than market price.  Thanks all!</p>
+									<h4>Chandana Roy <span>Customer</span></h4>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</article>
+						<article style="position: absolute; width: 100%; opacity: 0;"> 
+							<div class="banner-wrap">
+								<div class="col-md-6 w3_testimonials_grid">
+									<p><i class="fa fa-quote-right" aria-hidden="true"></i>It's a best online vegetables delievery ever.It delievers the best quality.</p>
+									<h4>Aakash Kumar <span>Customer</span></h4>
+								</div>
+								<div class="col-md-6 w3_testimonials_grid">
+									<p><i class="fa fa-quote-right" aria-hidden="true"></i>Fal Sabji Bazar has very fast delievery. They delivers in 20 minutes and vegetables and fruits are fresh and lower than market price.</p>
+									<h4>Shilpi Roy <span>Customer</span></h4>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</article>
+					</div>
+				</div>
+				<script src="js/jquery.wmuSlider.js"></script> 
+				<script>
+					$('.example1').wmuSlider();         
+				</script> 
+			</div>
+	</div>
+</div>
+<!-- newsletter -->
+	<div class="newsletter">
+		<div class="container">
+			<div class="w3agile_newsletter_left">
+				<h3>sign up for our newsletter</h3>
+			</div>
+			<div class="w3agile_newsletter_right">
+				<form action="#" method="post">
+					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<input type="submit" value="subscribe now">
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //newsletter -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-3 w3_footer_grid">
+				<div class="w3_footer_grid_bottom">
+				<h4 >information</h4>
+				<ul class="w3_footer_grid_list">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="mail.html">Contact Us</a></li>
+				</ul>
+				<ul class="agileits_social_icons">
+						<li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3 w3_footer_grid">
+				<div class="w3_footer_grid_bottom">
+				<h4><a href="vegetables.html" style="color: #84c639">Products</a></h4>
+				<ul class="w3_footer_grid_list">
+					<li><a href="vegetables.html#veg">Veggies</a></li>
+					<li><a href="vegetables.html#fru">Fruits</a></li>
+					<li><a href="vegetables.html#gro">Groceries</a></li>
+				</ul>
+				</div>
+			</div>
+			<div class="col-md-3 w3_footer_grid">
+				<div class="w3_footer_grid_bottom">
+					<h4>connect with us</h4>
+					<h5><b>Address</b></h5>
+					<p class="pa1">21/N Das Para, Jhandabag,Durgapur 713203, WB.</p><br>
+					<h5><b>Order At</b></h5>
+					<p class="pa1">+(91) 7501626773</p><br>
+					<h5><b>Mail Us</b></h5>
+					<p class="pa1">sonu1000raw@gmail.com</p>
+				</div>
+			</div>
+			<div class="col-md-3 w3_footer_grid">
+				<div class="w3_footer_grid_bottom">
+					<h4>100% secure payments</h4>
+					<img src="images/card.png" alt=" " class="img-responsive" />
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+			<div class="wthree_footer_copy">
+				<p>© 2018 Fal Sabji Bazar. All rights reserved | Design by <a href="http://webhubstudio.cf/">Webhub Studio</a></p>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+<script src="js/minicart.js"></script>
+<script>
+		paypal.minicart.render();
+
+		paypal.minicart.cart.on('checkout', function (evt) {
+			var items = this.items(),
+				len = items.length,
+				total = 0,
+				i;
+
+			// Count the number of each item in the cart
+			for (i = 0; i < len; i++) {
+				total += items[i].get('quantity');
+			}
+
+			if (total < 3) {
+				alert('The minimum order quantity is 3. Please add more to your shopping cart before checking out');
+				evt.preventDefault();
+			}
+		});
+
+	</script>
+	<script src="js/main.js"></script>
+</body>
+<body oncontextmenu="return false;">
+</html>

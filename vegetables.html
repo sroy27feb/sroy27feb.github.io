@@ -1,0 +1,2626 @@
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fal Sabji Bazar</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Grocery Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /> 
+<!-- //font-awesome icons -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+	
+<body>
+<!-- header -->
+	<div class="agileits_header">
+		<div class="w3l_offers">
+			<a href="vegetables.html">Today's special Offers !</a>
+		</div>
+		<div class="w3l_search">
+			<form action="#" method="post">
+				<input type="text" name="Product" value="Search a product..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search a product...';}" required="">
+				<input type="submit" value=" ">
+			</form>
+		</div>
+		<div class="product_list_header">  
+			<form action="#" method="post" class="last">
+                <fieldset>
+                    <input type="hidden" name="cmd" value="_cart" />
+                    <input type="hidden" name="display" value="1" />
+                    <input type="submit" name="submit" value="View your cart" class="button" />
+                </fieldset>
+            </form>
+		</div>
+		<div class="w3l_header_right">
+			<ul>
+				<li class="dropdown profile_details_drop">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i><span class="caret"></span></a>
+					<div class="mega-dropdown-menu">
+						<div class="w3ls_vegetables">
+							<ul class="dropdown-menu drp-mnu">
+								<li><a href="login.html">Login</a></li> 
+								<li><a href="login.html">Sign Up</a></li>
+							</ul>
+						</div>                  
+					</div>	
+				</li>
+			</ul>
+		</div>
+		<div class="w3l_header_right1">
+			<h2><a href="mail.html">Contact Us</a></h2>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+<!-- script-for sticky-nav -->
+	<script>
+	$(document).ready(function() {
+		 var navoffeset=$(".agileits_header").offset().top;
+		 $(window).scroll(function(){
+			var scrollpos=$(window).scrollTop(); 
+			if(scrollpos >=navoffeset){
+				$(".agileits_header").addClass("fixed");
+			}else{8
+				$(".agileits_header").removeClass("fixed");
+			}
+		 });
+		 
+	});
+	</script>
+<!-- //script-for sticky-nav -->
+<div class="logo_products">
+	<div class="container">
+		<div class="w3ls_logo_products_left">
+			<h1><a href="index.html"><span>Fal Sabji</span> Bazar</a></h1>
+		</div>
+		<div class="w3ls_logo_products_left1">
+			<ul class="special_items">
+				<li><a href="index.html">Home</a><i>/</i></li>
+				<li><a href="about.html">About Us</a><i>/</i></li>
+				<li><a href="services.html">Services</a><i>/</i></li>
+				<li><a href="mail.html"></a>Contact Us</li>
+			</ul>
+		</div>
+		<div class="w3ls_logo_products_left1">
+			<ul class="phone_email">
+				<li><i class="fa fa-phone" aria-hidden="true"></i>(+0123) 234 567</li>
+				<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:store@grocery.com">store@grocery.com</a></li>
+			</ul>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!-- //header -->
+<!-- products-breadcrumb -->
+	<div class="products-breadcrumb">
+		<div class="container">
+			<ul>
+				<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.html">Home</a><span>|</span></li>
+				<li>Fruits & Vegetables</li>
+			</ul>
+		</div>
+	</div>
+<!-- //products-breadcrumb -->
+<!-- banner -->
+	<div class="banner">
+		<div class="w3l_banner_nav_left">
+			<nav class="navbar nav_bottom">
+			 <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header nav_2">
+				  <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+			   </div> 
+			   <!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+					<ul class="nav navbar-nav nav_1">
+						<li><a style="font-size:30px;" href="vegetables.html"><b>Products</b></a></li>
+						<li><a href="vegetables.html#veg">Veggies</a></li>
+						<li><a href="vegetables.html#fru">Fruits</a></li>
+						<li><a href="vegetables.html#gro">Groceries</a></li>
+					</ul>
+				 </div><!-- /.navbar-collapse -->
+			</nav>
+		</div>
+		<div class="w3l_banner_nav_right">
+			<div class="w3l_banner_nav_right_banner5">
+				<h3>Products</h3>
+			</div>
+			<div class="w3l_banner_nav_right_banner3_btm">
+				<div class="col-md-4 w3l_banner_nav_right_banner3_btml">
+					<div class="view view-tenth">
+						<img src="images/bg2.jpg" alt=" " class="img-responsive" />
+						<div class="mask">
+							<h4>Grocery Store</h4>
+							<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+						</div>
+					</div>
+					<h4>Fruits</h4>
+					<ol>
+						<li>sunt in culpa qui officia</li>
+						<li>commodo consequat</li>
+						<li>sed do eiusmod tempor incididunt</li>
+					</ol>
+				</div>
+				<div class="col-md-4 w3l_banner_nav_right_banner3_btml">
+					<div class="view view-tenth">
+						<img src="images/gro1.jpg" alt=" " class="img-responsive" />
+						<div class="mask">
+							<h4>Grocery Store</h4>
+							<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+						</div>
+					</div>
+					<h4>Groceries</h4>
+					<ol>
+						<li>enim ipsam voluptatem officia</li>
+						<li>tempora incidunt ut labore et</li>
+						<li>vel eum iure reprehenderit</li>
+					</ol>
+				</div>
+				<div class="col-md-4 w3l_banner_nav_right_banner3_btml">
+					<div class="view view-tenth">
+						<img src="images/veg2.jpg" alt=" " class="img-responsive" />
+						<div class="mask">
+							<h4>Grocery Store</h4>
+							<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+						</div>
+					</div>
+					<h4>Vegetables</h4>
+					<ol>
+						<li>dolorem eum fugiat voluptas</li>
+						<li>ut aliquid ex ea commodi</li>
+						<li>magnam aliquam quaerat</li>
+					</ol>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="w3ls_w3l_banner_nav_right_grid w3ls_w3l_banner_nav_right_grid_veg" id="veg">
+				<h3 class="w3l_fruit">Vegetables</h3>
+				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v1.jpg" alt=" " class="img-responsive" /></a>
+											<p>Potato - Chandramukhi</p>
+											<select name="price" id="amount6" onchange="changePrice6(this)">
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+												<option value="5000">5kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price6' value="18" style="font-size: 16px">₹ 18.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Baby Potato" />
+													<input type="hidden" name="amount" value="15.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v2.jpg" alt=" " class="img-responsive" /></a>
+											<p>Onion</p>
+											<select name="price" id="amount7" onchange="changePrice7(this)">
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+												<option value="5000">5kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price7' value="13" style="font-size: 16px">₹ 13.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh cauliflower" />
+													<input type="hidden" name="amount" value="15.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v3.jpg" alt=" " class="img-responsive" /></a>
+											<p>Potato - Jyoti</p>
+											<select name="price" id="amount8" onchange="changePrice8(this)">
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+												<option value="5000">5kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price8' value="15" style="font-size: 16px">₹ 15.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh brinjal bharta" />
+													<input type="hidden" name="amount" value="2.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v4.jpg" alt=" " class="img-responsive" /></a>
+											<p>Tomato</p>
+											<select name="price" id="amount9" onchange="changePrice9(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price9' value="3" style="font-size: 16px">₹ 3.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh sweet lime" />
+													<input type="hidden" name="amount" value="6.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v5.jpg" alt=" " class="img-responsive" /></a>
+											<p>Carrot</p>
+											<select name="price" id="amount10" onchange="changePrice10(this)">
+													<option value="250">250gm.</option>
+													<option value="500">500gm.</option>
+													<option value="1000">1kg.</option>
+													<option value="2000">2kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price10' value="7" style="font-size: 16px">₹ 7.00</li></b>
+												</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh spinach" />
+													<input type="hidden" name="amount" value="2.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v6.jpg" alt=" " class="img-responsive" /></a>
+											<p>Cucumber</p>
+											<select name="price" id="amount11" onchange="changePrice11(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price11' value="7" style="font-size: 16px">₹ 7.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh mango dasheri" />
+													<input type="hidden" name="amount" value="5.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v7.jpg" alt=" " class="img-responsive" /></a>
+											<p>Beans - Double</p>
+											<select name="price" id="amount12" onchange="changePrice12(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price12' value="19" style="font-size: 16px">₹ 19.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh apple red" />
+													<input type="hidden" name="amount" value="6.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v8.jpg" alt=" " class="img-responsive" /></a>
+											<p>Palak Saag</p>
+											<select name="price" id="amount13" onchange="changePrice13(this)">
+												<option value="100">100gm.</option>
+												<option value="200">200gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price13' value="5" style="font-size: 16px">₹ 5.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh broccoli" />
+													<input type="hidden" name="amount" value="4.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				
+				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v9.jpg" alt=" " class="img-responsive" /></a>
+											<p>Brinjal</p>
+											<select name="price" id="amount14" onchange="changePrice14(this)">
+												<option value="200">200gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price14' value="16" style="font-size: 16px">₹ 16.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh basket onion" />
+													<input type="hidden" name="amount" value="5.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v10.jpg" alt=" " class="img-responsive" /></a>
+											<p>Bitter Gourd</p>
+											<select name="price" id="amount15" onchange="changePrice15(this)">
+													<option value="200">200gm.</option>
+													<option value="500">500gm.</option>
+													<option value="1000">1kg.</option>
+													<option value="2000">2kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price15' value="14" style="font-size: 16px">₹ 14.00</li></b>
+												</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh muskmelon" />
+													<input type="hidden" name="amount" value="4.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v11.jpg" alt=" " class="img-responsive" /></a>
+											<p>Ginger</p>
+											<select name="price" id="amount16" onchange="changePrice16(this)">
+												<option value="100">100gm.</option>
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price16' value="6" style="font-size: 16px">₹ 6.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh mushroom" />
+													<input type="hidden" name="amount" value="11.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v12.jpg" alt=" " class="img-responsive" /></a>
+											<p>Ladies Finger / Dharosh</p>
+											<select name="price" id="amount17" onchange="changePrice17(this)">
+													<option value="250">250gm.</option>
+													<option value="500">500gm.</option>
+													<option value="1000">1kg.</option>
+													<option value="2000">2kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price17' value="9" style="font-size: 16px">₹ 9.00</li></b>
+												</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh strawberry" />
+													<input type="hidden" name="amount" value="7.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v13.jpg" alt=" " class="img-responsive" /></a>
+											<p>Chilli</p>
+											<select name="price" id="amount18" onchange="changePrice18(this)">
+												<option value="100">100gm.</option>
+												<option value="200">200gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price18' value="10" style="font-size: 16px">₹ 10.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh basket onion" />
+													<input type="hidden" name="amount" value="5.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v14.jpg" alt=" " class="img-responsive" /></a>
+											<p>Garlic</p>
+											<select name="price" id="amount19" onchange="changePrice19(this)">
+												<option value="100">100gm.</option>
+												<option value="200">200gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price19' value="13" style="font-size: 16px">₹ 13.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh muskmelon" />
+													<input type="hidden" name="amount" value="4.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v15.jpg" alt=" " class="img-responsive" /></a>
+											<p>Parwal</p>
+											<select name="price" id="amount20" onchange="changePrice20(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price20' value="7" style="font-size: 16px">₹ 7.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh mushroom" />
+													<input type="hidden" name="amount" value="11.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v16.jpg" alt=" " class="img-responsive" /></a>
+											<p>Capsicum - Red</p>
+											<select name="price" id="amount21" onchange="changePrice21(this)">
+													<option value="250">250gm.</option>
+													<option value="500">500gm.</option>
+													<option value="1000">1kg.</option>
+													<option value="2000">2kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price21' value="57" style="font-size: 16px">₹ 57.00</li></b>
+												</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh strawberry" />
+													<input type="hidden" name="amount" value="7.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v17.jpg" alt=" " class="img-responsive" /></a>
+											<p>Capsicum - Yellow</p>
+											<select name="price" id="amount22" onchange="changePrice22(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price22' value="57" style="font-size: 16px">₹ 57.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh basket onion" />
+													<input type="hidden" name="amount" value="5.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v18.jpg" alt=" " class="img-responsive" /></a>
+											<p>Capsicum - Green</p>
+											<select name="price" id="amount23" onchange="changePrice23(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price23' value="17" style="font-size: 16px">₹ 17.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh muskmelon" />
+													<input type="hidden" name="amount" value="4.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v19.jpg" alt=" " class="img-responsive" /></a>
+											<p>Amaranthus - Red / Note Saag</p>
+											<select name="price" id="amount24" onchange="changePrice24(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price24' value="12" style="font-size: 16px">₹ 12.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh mushroom" />
+													<input type="hidden" name="amount" value="11.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v20.jpg" alt=" " class="img-responsive" /></a>
+											<p>Water Ipomoea / Kalmi Saag</p>
+											<select name="price" id="amount25" onchange="changePrice25(this)">
+													<option value="250">250gm.</option>
+													<option value="500">500gm.</option>
+													<option value="1000">1kg.</option>
+													<option value="2000">2kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price25' value="6" style="font-size: 16px">₹ 6.00</li></b>
+												</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh strawberry" />
+													<input type="hidden" name="amount" value="7.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v21.jpg" alt=" " class="img-responsive" /></a>
+											<p>Green Tomato</p>
+											<select name="price" id="amount26" onchange="changePrice26(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price26' value="5" style="font-size: 16px">₹ 5.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh basket onion" />
+													<input type="hidden" name="amount" value="5.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v22.jpg" alt=" " class="img-responsive" /></a>
+											<p>Spring Onion</p>
+											<select name="price" id="amount27" onchange="changePrice27(this)">
+													<option value="100">100gm.</option>
+													<option value="250">250gm.</option>
+													<option value="500">500gm.</option>
+													<option value="1000">1kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price27' value="10" style="font-size: 16px">₹ 10.00</li></b>
+												</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh muskmelon" />
+													<input type="hidden" name="amount" value="4.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v24.jpg" alt=" " class="img-responsive" /></a>
+											<p>Ginger</p>
+											<select name="price" id="amount28" onchange="changePrice28(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price28' value="9" style="font-size: 16px">₹ 9.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh mushroom" />
+													<input type="hidden" name="amount" value="11.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v37.jpg" alt=" " class="img-responsive" /></a>
+											<p>Ladies Finger / Dharosh</p>
+											<select name="price" id="amount29" onchange="changePrice29(this)">
+													<option value="250">250gm.</option>
+													<option value="500">500gm.</option>
+													<option value="1000">1kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price29' value="6" style="font-size: 16px">₹ 6.00</li></b>
+												</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh strawberry" />
+													<input type="hidden" name="amount" value="7.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v27.jpg" alt=" " class="img-responsive" /></a>
+											<p>Bottle Gourd</p>
+											<select name="price" id="amount30" onchange="changePrice30(this)">
+												<option value="1">1pc.</option>
+												<option value="2">2pc.</option>
+												<option value="5">5pc.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price30' value="35" style="font-size: 16px">₹ 35.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh basket onion" />
+													<input type="hidden" name="amount" value="5.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v30.jpg" alt=" " class="img-responsive" /></a>
+											<p>Drumstick / Sajnedanta</p>
+											<select name="price" id="amount31" onchange="changePrice31(this)">
+													<option value="100">100gm.</option>
+													<option value="250">250gm.</option>
+													<option value="500">500gm.</option>
+													<option value="1000">1kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price31' value="6" style="font-size: 16px">₹ 6.00</li></b>
+												</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh muskmelon" />
+													<input type="hidden" name="amount" value="4.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v34.jpg" alt=" " class="img-responsive" /></a>
+											<p>Ridge Gourd / Jhinge</p>
+											<select name="price" id="amount32" onchange="changePrice32(this)">
+												<option value="100">100gm.</option>
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price32' value="6" style="font-size: 16px">₹ 6.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh mushroom" />
+													<input type="hidden" name="amount" value="11.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/veg/v36.jpg" alt=" " class="img-responsive" /></a>
+											<p>Beans - French Ring</p>
+											<select name="price" id="amount33" onchange="changePrice33(this)">
+													<option value="250">250gm.</option>
+													<option value="500">500gm.</option>
+													<option value="1000">1kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price33' value="15" style="font-size: 16px">₹ 15.00</li></b>
+												</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh strawberry" />
+													<input type="hidden" name="amount" value="7.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="w3ls_w3l_banner_nav_right_grid w3ls_w3l_banner_nav_right_grid_veg" id="fru">
+				<h3 class="w3l_fruit">Fruits</h3>
+				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f1.jpg" alt=" " class="img-responsive" /></a>
+											<p>Banana/Kathali Kala</p>
+											<select name="price" id="amount50" onchange="changePrice50(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price50' value="25" style="font-size: 16px">₹ 25.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Baby Potato" />
+													<input type="hidden" name="amount" value="15.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f2.jpg" alt=" " class="img-responsive" /></a>
+											<p>Papaya(750-1.5kg.)</p>
+											<select name="price" id="amount49" onchange="changePrice49(this)">
+												<option value="1">1pc.</option>
+												<option value="2">2pc.</option>
+												<option value="5">5pc.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price49' value="49" style="font-size: 16px">₹ 49.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh cauliflower" />
+													<input type="hidden" name="amount" value="15.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f3.jpg" alt=" " class="img-responsive" /></a>
+											<p>Apple - Washington</p>
+											<select name="price" id="amount48" onchange="changePrice48(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price48' value="50" style="font-size: 16px">₹ 50.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh brinjal bharta" />
+													<input type="hidden" name="amount" value="2.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f4.jpg" alt=" " class="img-responsive" /></a>
+											<p>Guava</p>
+											<select name="price" id="amount47" onchange="changePrice47(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price47' value="25" style="font-size: 16px">₹ 25.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh sweet lime" />
+													<input type="hidden" name="amount" value="6.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f5.jpg" alt=" " class="img-responsive" /></a>
+											<p>Mosambi</p>
+											<select name="price" id="amount45" onchange="changePrice45(this)">
+													<option value="250">250gm.</option>
+													<option value="500">500gm.</option>
+													<option value="1000">1kg.</option>
+													<option value="2000">2kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price45' value="15" style="font-size: 16px">₹ 15.00</li></b>
+												</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh spinach" />
+													<input type="hidden" name="amount" value="2.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f6.jpg" alt=" " class="img-responsive" /></a>
+											<p>Watermelon(1.9-2.9kg)</p>
+											<select name="price" id="amount44" onchange="changePrice44(this)">
+													<option value="1">1pc.</option>
+													<option value="2">2pc.</option>
+													<option value="5">5pc.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price44' value="29" style="font-size: 16px">₹ 29.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh mango dasheri" />
+													<input type="hidden" name="amount" value="5.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f7.jpg" alt=" " class="img-responsive" /></a>
+											<p>Coconut - Medium</p>
+											<select name="price" id="amount43" onchange="changePrice43(this)">
+													<option value="1">1pc.</option>
+													<option value="2">2pc.</option>
+													<option value="5">5pc.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price43' value="32" style="font-size: 16px">₹ 32.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh apple red" />
+													<input type="hidden" name="amount" value="6.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f8.jpg" alt=" " class="img-responsive" /></a>
+											<p>Apple - Shimla</p>
+											<select name="price" id="amount42" onchange="changePrice42(this)">
+													<option value="1">1pc.</option>
+													<option value="2">2pc.</option>
+													<option value="5">5pc.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price42' value="39" style="font-size: 16px">₹ 39.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh broccoli" />
+													<input type="hidden" name="amount" value="4.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				
+				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f9.jpg" alt=" " class="img-responsive" /></a>
+											<p>Mango - Raw</p>
+											<select name="price" id="amount41" onchange="changePrice41(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price41' value="15" style="font-size: 16px">₹ 15.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh basket onion" />
+													<input type="hidden" name="amount" value="5.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f10.jpg" alt=" " class="img-responsive" /></a>
+											<p>Mango - Alphonso</p>
+											<select name="price" id="amount40" onchange="changePrice40(this)">
+													<option value="250">250gm.</option>
+													<option value="500">500gm.</option>
+													<option value="1000">1kg.</option>
+													<option value="2000">2kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price40' value="65" style="font-size: 16px">₹ 65.00</li></b>
+												</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh muskmelon" />
+													<input type="hidden" name="amount" value="4.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f11.jpg" alt=" " class="img-responsive" /></a>
+											<p>Jackfruit</p>
+											<select name="price" id="amount39" onchange="changePrice39(this)">
+													<option value="1">1pc.</option>
+													<option value="2">2pc.</option>
+													<option value="5">5pc.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price39' value="42" style="font-size: 16px">₹ 42.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh mushroom" />
+													<input type="hidden" name="amount" value="11.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f12.jpg" alt=" " class="img-responsive" /></a>
+											<p>Mango Gulab khas</p>
+											<select name="price" id="amount38" onchange="changePrice38(this)">
+													<option value="250">250gm.</option>
+													<option value="500">500gm.</option>
+													<option value="1000">1kg.</option>
+													<option value="2000">2kg.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price38' value="40" style="font-size: 16px">₹ 40.00</li></b>
+												</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh strawberry" />
+													<input type="hidden" name="amount" value="7.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f14.jpg" alt=" " class="img-responsive" /></a>
+											<p>Mango - Banganapalli</p>
+											<select name="price" id="amount37" onchange="changePrice37(this)">
+												<option value="250">250gm.</option>
+												<option value="500">500gm.</option>
+												<option value="1000">1kg.</option>
+												<option value="2000">2kg.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price37' value="30" style="font-size: 16px">₹ 30.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh basket onion" />
+													<input type="hidden" name="amount" value="5.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f13.jpg" alt=" " class="img-responsive" /></a>
+											<p>Pomegranate</p>
+											<select name="price" id="amount36" onchange="changePrice36(this)">
+													<option value="1">1pc.</option>
+													<option value="2">2pc.</option>
+													<option value="5">5pc.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price36' value="38" style="font-size: 16px">₹ 38.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh muskmelon" />
+													<input type="hidden" name="amount" value="4.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f15.jpg" alt=" " class="img-responsive" /></a>
+											<p>Banana Stem</p>
+											<select name="price" id="amount35" onchange="changePrice35(this)">
+												<option value="1">1pc.</option>
+												<option value="2">2pc.</option>
+												<option value="5">5pc.</option>
+											</select>
+											<ul class="b2">
+												<b><li id='price35' value="11" style="font-size: 16px">₹ 11.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh mushroom" />
+													<input type="hidden" name="amount" value="11.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/fru/f16.jpg" alt=" " class="img-responsive" /></a>
+											<p>Banana Flower</p>
+											<select name="price" id="amount34" onchange="changePrice34(this)">
+													<option value="1">1pc.</option>
+													<option value="2">2pc.</option>
+													<option value="5">5pc.</option>
+												</select>
+												<ul class="b2">
+													<b><li id='price34' value="23" style="font-size: 16px">₹ 23.00</li></b>
+												</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh strawberry" />
+													<input type="hidden" name="amount" value="7.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="w3ls_w3l_banner_nav_right_grid w3ls_w3l_banner_nav_right_grid_veg" id="gro">
+				<h3 class="w3l_fruit">Groceries</h3>
+				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/gro/g1.jpg" alt=" " class="img-responsive" /></a>
+											<p>Atta - Whole Wheat(1kg)</p>
+											<p style="color: gray;font-size: 12px;">Aashirvaad</p>
+											<ul class="b2">
+												<b><li id='price51' value="36" style="font-size: 16px">₹ 36.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Baby Potato" />
+													<input type="hidden" name="amount" value="15.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+												<a href="#"><img src="images/gro/g2.jpg" alt=" " class="img-responsive" /></a>
+												<p>Chana Sattu(500gm.)</p>
+												<p style="color: gray;font-size: 12px;">Ganesh</p>
+												<ul class="b2">
+													<b><li id='price52' value="64" style="font-size: 16px">₹ 64.00</li></b>
+												</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh cauliflower" />
+													<input type="hidden" name="amount" value="15.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/gro/g3.jpg" alt=" " class="img-responsive" /></a>
+											<p style="padding-left: 0;margin-left: 0;">Mustard Oil(1L)</p>
+											<p style="color: gray;font-size: 12px;">Emami</p>
+											<ul class="b2">
+												<b><li id='price53' value="99" style="font-size: 16px">₹ 99.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh brinjal bharta" />
+													<input type="hidden" name="amount" value="2.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="INR" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/gro/g4.jpg" alt=" " class="img-responsive" /></a>
+											<p style="padding-left: 0;margin-left: 0;">Sunflower Refined Oil(910gm)</p>
+											<p style="color: gray;font-size: 12px;">Fortune</p>
+											<ul class="b2">
+												<b><li id='price54' value="102" style="font-size: 16px">₹ 102.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh sweet lime" />
+													<input type="hidden" name="amount" value="6.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/gro/g5.jpg" alt=" " class="img-responsive" /></a>
+											<p style="padding-left: 0;margin-left: 0;">Pure Ghee(1L tin)</p>
+											<p style="color: gray;font-size: 12px;">Amul</p>
+											<ul class="b2">
+												<b><li id='price55' value="505" style="font-size: 16px">₹ 505.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh basket onion" />
+													<input type="hidden" name="amount" value="5.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/gro/g6.jpg" alt=" " class="img-responsive" /></a>
+											<p style="padding-left: 0;margin-left: 0;">Premium Ghee(500mL)</p>
+											<p style="color: gray;font-size: 12px;">Gowardhan</p>
+											<ul class="b2">
+												<b><li id='price56' value="290" style="font-size: 16px">₹ 290.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh muskmelon" />
+													<input type="hidden" name="amount" value="4.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/gro/g7.jpg" alt=" " class="img-responsive" /></a>
+											<p style="padding-left: 0;margin-left: 0;">Mustard Oil(1L)</p>
+											<p style="color: gray;font-size: 12px;">Fortune</p>
+											<ul class="b2">
+												<b><li id='price57' value="112" style="font-size: 16px">₹ 112.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh mushroom" />
+													<input type="hidden" name="amount" value="11.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/gro/g8.jpg" alt=" " class="img-responsive" /></a>
+											<p style="padding-left: 0;margin-left: 0;">Vivo Oil(1L)</p>
+											<p style="color: gray;font-size: 12px;">Fortune</p>
+											<ul class="b2">
+												<b><li id='price58' value="145" style="font-size: 16px">₹ 145.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh strawberry" />
+													<input type="hidden" name="amount" value="7.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/gro/g9.jpg" alt=" " class="img-responsive" /></a>
+											<p style="padding-left: 0;margin-left: 0;">Basmati Rice(1kg.)</p>
+											<p style="color: gray;font-size: 12px;">India Gate</p>
+											<ul class="b2">
+												<b><li id='price59' value="110" style="font-size: 16px">₹ 110.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh basket onion" />
+													<input type="hidden" name="amount" value="5.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/gro/g10.jpg" alt=" " class="img-responsive" /></a>
+											<p style="padding-left: 0;margin-left: 0;">Salt - Lite(1kg.)</p>
+											<p style="color: gray;font-size: 12px;">Tata</p>
+											<ul class="b2">
+												<b><li id='price60' value="32" style="font-size: 16px">₹ 32.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh muskmelon" />
+													<input type="hidden" name="amount" value="4.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asd">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/gro/g11.jpg" alt=" " class="img-responsive" /></a>
+											<p style="padding-left: 0;margin-left: 0;">Salt - Iodized(1kg.)</p>
+											<p style="color: gray;font-size: 12px;">Tata</p>
+											<ul class="b2">
+												<b><li id='price61' value="18" style="font-size: 16px">₹ 18.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh mushroom" />
+													<input type="hidden" name="amount" value="11.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/gro/g12.jpg" alt=" " class="img-responsive" /></a>
+											<p style="padding-left: 0;margin-left: 0;">Sugar free Gold(100gm.)</p>
+											<p style="color: gray;font-size: 12px;">Sugar free</p>
+											<ul class="b2">
+												<b><li id='price62' value="125" style="font-size: 16px">₹ 125.00</li></b>
+											</ul>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="fresh strawberry" />
+													<input type="hidden" name="amount" value="7.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Add to cart" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+<!-- //banner -->
+<!-- newsletter -->
+	<div class="newsletter">
+		<div class="container">
+			<div class="w3agile_newsletter_left">
+				<h3>sign up for our newsletter</h3>
+			</div>
+			<div class="w3agile_newsletter_right">
+				<form action="#" method="post">
+					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<input type="submit" value="subscribe now">
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //newsletter -->
+<!-- footer -->
+<div class="footer">
+		<div class="container">
+			<div class="col-md-3 w3_footer_grid">
+				<div class="w3_footer_grid_bottom">
+				<h4 >information</h4>
+				<ul class="w3_footer_grid_list">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="mail.html">Contact Us</a></li>
+				</ul>
+				<ul class="agileits_social_icons">
+						<li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3 w3_footer_grid">
+				<div class="w3_footer_grid_bottom">
+				<h4><a href="vegetables.html" style="color: #84c639">Products</a></h4>
+				<ul class="w3_footer_grid_list">
+					<li><a href="vegetables.html#veg">Veggies</a></li>
+					<li><a href="vegetables.html#fru">Fruits</a></li>
+					<li><a href="vegetables.html#gro">Groceries</a></li>
+				</ul>
+				</div>
+			</div>
+			<div class="col-md-3 w3_footer_grid">
+				<div class="w3_footer_grid_bottom">
+					<h4>connect with us</h4>
+					<h5><b>Address</b></h5>
+					<p class="pa1">21/N Das Para, Jhandabag,Durgapur 713203, WB.</p><br>
+					<h5><b>Order At</b></h5>
+					<p class="pa1">+(91) 7501626773</p><br>
+					<h5><b>Mail Us</b></h5>
+					<p class="pa1">sonu1000raw@gmail.com</p>
+				</div>
+			</div>
+			<div class="col-md-3 w3_footer_grid">
+				<div class="w3_footer_grid_bottom">
+					<h4>100% secure payments</h4>
+					<img src="images/card.png" alt=" " class="img-responsive" />
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+			<div class="wthree_footer_copy">
+				<p>© 2018 Fal Sabji Bazar. All rights reserved | Design by <a href="http://webhubstudio.cf/">Webhub Studio</a></p>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+<script src="js/minicart.js"></script>
+<script>
+		paypal.minicart.render();
+
+		paypal.minicart.cart.on('checkout', function (evt) {
+			var items = this.items(),
+				len = items.length,
+				total = 0,
+				i;
+
+			// Count the number of each item in the cart
+			for (i = 0; i < len; i++) {
+				total += items[i].get('quantity');
+			}
+
+			if (total < 3) {
+				alert('The minimum order quantity is 3. Please add more to your shopping cart before checking out');
+				evt.preventDefault();
+			}
+		});
+
+	</script>
+	<script src="js/main.js"></script>
+</body>
+</html>
